@@ -58,7 +58,6 @@ reduce                        ; transform a collection
   [x]
   x)                          ; function definitions are also s-exprs
 
-
 ;; Namespaces:
 ;;
 ;; - are how we organize and/or modularise code
@@ -123,7 +122,7 @@ same  ; is defined in the current ns
 
 {:a 1,  :b 2}
 
-{:a 1,
+{:a 1
  :b 2}
 
 {:a 1
@@ -152,8 +151,8 @@ same  ; is defined in the current ns
 (+ (+ (+ 1 2) (+ 1 2))
    (+ (+ 1 2) (+ 1 2)))
 
-(+ (+  3       3     )
-   (+  3       3     ))
+(+ (+  3       3)
+   (+  3       3))
 
 (+ 6
    6)
